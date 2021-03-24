@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Poker Room Operations</title>
+  </head>
+  <body>
+      <div class="container">
+        <!--Navigation script-->
+        <script src="navigation.js"></script>
+
+        <!--Main Stuff-->
+          <div class="jumbotron">
+            <p class="h2">Package Tickets Simplified</p>
+            <p class="lead">Working with package tickets should as easy as possible!</p>
+          </div>
+
+        <div class="container">
+            <div class="row m-2 alert alert-success">
+                <input type="text" class="col-12 col-sm-3 col-lg-2 form-control" placeholder="Ticket ID">
+                <input type="text" class="col-12 col-sm-9 col-lg-4 form-control" placeholder="username">
+                <input type="text" class="col-12 col-sm-12 form-control" placeholder="Reason for actions">
+                <button class="btn btn-warning" id="btn-ticket-list">Ticket List</button>
+                <button class="btn btn-success" id="btn-ticket-issue">Issue</button>
+                <button class="btn btn-danger disabled" id="btn-ticket-encash">Encash</button>
+            </div>
+        </div>
+
+        <!--Working progress-->
+        <div class="container">
+          <div>
+            <label for="filter">Package Ticket Name Filter</label>
+            <input type="text" class="input form-control m-2" id="filter">
+          </div>
+          <hr>
+
+          <div id="ticket-list"></div>
+          
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="issuePackages.js"></script>
+  </body>
+</html>
