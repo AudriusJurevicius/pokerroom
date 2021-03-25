@@ -13,6 +13,12 @@ const tickets = [
 {id: 962387, name: 'DTD MTT Online £55 Ticket#', settl: 'pp_event2101'},
 {id: 965360, name: 'DTD MTT Online £55 Ticket [PPL#]', settl: 'pp_event2101'},
 
+{id: 1064380, name: 'FootyAccums Poker £5.50 Ticket*', settl: 'pp_event1201'},
+{id: 1054366, name: 'FootyAccums Poker £5.50 Ticket#', settl: 'pp_event1201'},
+{id: 1052427, name: 'FootyAccums Poker £5.50 Ticket', settl: 'pp_event1201'},
+{id: 1052429, name: 'FootyAccums Poker £22 Champions Cup Ticket', settl: 'pp_event1201'},
+{id: 1052428, name: 'FootyAccums Poker £22 Champions Cup Ticket#', settl: 'pp_event1201'},
+
 {id: 1073472, name: 'Irish Open Online 2021 €5,200 Seat#', settl: 'pp_event1202'},
 {id: 1073471, name: 'Irish Open Online 2021 €5,200 Seat [PPL]', settl: 'pp_event1202'},
 {id: 1073473, name: 'Irish Open Online 2021 €2,100 Seat [PPL]', settl: 'pp_event1202'},
