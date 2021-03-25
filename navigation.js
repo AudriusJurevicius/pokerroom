@@ -9,19 +9,11 @@ document.write(`\
               <div class="collapse navbar-collapse" id="navbarSupportedContent">\
                 <ul class="navbar-nav mr-auto">\
                   <li class="nav-item dropdown active">\
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
-                      Tickets\
-                    </a>\
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tickets</a>\
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">\
                       <a class="dropdown-item" href="issue-ticket.html">Issue Tickets</a>\
 					  <a class="dropdown-item" href="tickets.html">View Tickets</a>\
                     </div>\
-                  </li>\
-                  <li class="nav-item disabled">\
-                    <a class="nav-link" href="#">(unused)</a>\
-                  </li>\
-                  <li class="nav-item disabled">\
-                    <a class="nav-link" href="#">(unused)</a>\
                   </li>\
                   <li class="nav-item dropdown">\
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
@@ -33,6 +25,12 @@ document.write(`\
                       <div class="dropdown-divider"></div>\
                       <a class="dropdown-item disabled" href="#">Not yet done</a>\
                     </div>\
+                  </li>\
+				  <li class="nav-item disabled">\
+                    <a class="nav-link" href="#">(unused)</a>\
+                  </li>\
+                  <li class="nav-item disabled">\
+                    <a class="nav-link" href="#">(unused)</a>\
                   </li>\
                 </ul>\
               </div>\
