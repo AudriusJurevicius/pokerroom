@@ -122,6 +122,9 @@ function getFrontEnd(username) {
     if (username.startsWith('by_')) { return 'BWINDE'; } else 
     if (username.startsWith('pd_')) { return 'PPDE'; } else 
     if (username.startsWith('ry_')) { return 'PREMIUMDE'; } else 
+	if (username.startsWith('ov_')) { return 'OPTIBETLV'; } else 
+	if (username.startsWith('oe_')) { return 'OPTIBETEE'; } else 
+	if (username.startsWith('ee_')) { return 'EUROBETBE'; } else 
     {
         return "undefined";
     }
